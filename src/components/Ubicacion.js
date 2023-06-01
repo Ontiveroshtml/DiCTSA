@@ -22,7 +22,7 @@ export class MapContainer extends Component {
       selectedPlace: {},
       mapCenter: {
         lat: 24.031011749608545,
-        lng: -104.67212641152975
+        lng: -104.672126411520975
       }
     };
   }

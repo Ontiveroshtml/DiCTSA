@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Testimonials from './components/Testimonials'
-import Demo from './components/Demo'
+import Inicio from './components/Inicio'
+import Nosotros from './components/Nosotros'
+import Galeria from './components/Galeria'
+import Contacto from './components/Contacto'
 import Ubicacion from './components/Ubicacion'
 import Footer from './components/Footer'
 
@@ -11,10 +11,10 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <About />
-      <Testimonials />
-      <Demo />
+      <Inicio />
+      <Nosotros />
+      {/* <Galeria /> */}
+      <Contacto />
       <Ubicacion />
       <Footer />
     </div>

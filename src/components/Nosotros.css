@@ -1,0 +1,143 @@
+.nosotros {
+    background-color: #f8f8f8;
+    margin: auto;
+    padding: 1rem 0rem 5rem 0rem;
+    width: 80%;
+}
+
+.nosotros .container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 2.5rem 0 2rem 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-box-shadow: 17px 6px 206px -40px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 6px 206px -40px rgba(0,0,0,0.75);
+    box-shadow: 20px 0px 40px -40px rgba(0,0,0,0.75);
+}
+.nosotros .container2 {
+    max-width: 1240px;
+    width: 100%;
+    padding: 2.5rem 1rem 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-box-shadow: 17px 6px 206px -40px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 6px 206px -40px rgba(0,0,0,0.75);
+    box-shadow: -20px 0px 40px -40px rgba(0,0,0,0.75);
+}
+
+.nosotros .container img{
+    width: 12em;
+    margin-left: auto;
+    margin-right: 18%;
+    margin-top: 12%;
+    border-radius: 40px;
+}
+
+.nosotros .container2 img{
+    width: 12em;
+    margin-left: 25%;
+    margin-top: 12%;
+    border-radius: 40px;
+}
+
+.nosotros h2 {
+    font-size: 2.2rem;
+}
+
+.nosotros span {
+    background-color: red;
+    width: 3em;
+}
+
+.nosotros .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.nosotros .col-2 p {
+    margin: 2rem 0.2rem;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.nosotros .col-2 .valores {
+    margin: 0;
+}
+
+.nosotros .col-2 .valores li {
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 1240px) {
+    .nosotros .container {
+        grid-template-columns: 1fr;
+    }
+
+    .nosotros .container img {
+        padding: 0;
+        width: 90%;
+    }
+
+    .nosotros .container .col-2 {
+        padding: 0;
+    }
+
+    .nosotros button {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nosotros .container {
+        padding: 1.5rem 0;
+    }
+
+    .nosotros .container img {
+        width: 80%;
+    }
+
+    .nosotros h2 {
+        font-size: 2rem;
+    }
+
+    .nosotros .col-2 p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nosotros {
+        padding: 2rem 1rem 0 1rem;
+    }
+
+    .nosotros .container {
+        padding: 1.5rem 0;
+    }
+
+    .nosotros h2 {
+        font-size: 1.8rem;
+    }
+
+    .nosotros .container img {
+        width: 90%;
+    }
+
+    .nosotros .col-2 p {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
+

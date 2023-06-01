@@ -6,16 +6,16 @@ import img2 from './images/img3.jpg'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 
-import './Testimonials.css'
+
+import './Galeria.css'
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-const Testimonials = () => {
+const Galeria = () => {
     return (
-        <div className='testimonials' id='testimonials'>
+        <div className='galeria' id='Galeria'>
             <div className='container'>
                 <h2>Galería</h2>
                 <span className='line'></span>
@@ -42,4 +42,4 @@ const Testimonials = () => {
     )
 }
 
-export default Testimonials
+export default Galeria

@@ -30,19 +30,19 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <Link to='hero' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-139} duration={700} onClick={closeMenu}  >Inicio</Link>
+                        <Link to='Inicio' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-139} duration={700} onClick={closeMenu}  >Inicio</Link>
                     </li>
                     <li className='nav-item'>
-                    <Link to='about' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-90} duration={700} onClick={closeMenu}  >Nosotros</Link>
+                    <Link to='Nosotros' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-90} duration={700} onClick={closeMenu}  >Nosotros</Link>
                     </li>
                     <li className='nav-item'>
-                    <Link to='testimonials' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-139} duration={700} onClick={closeMenu}  >Galería</Link>
+                    <Link to='Galeria' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-139} duration={700} onClick={closeMenu}  >Galería</Link>
                     </li>
                     <li className='nav-item'>
-                    <Link to='Contacto' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-139} duration={700} onClick={closeMenu}  >Curriculum</Link>
+                    <Link to='Curriculum' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-139} duration={700} onClick={closeMenu}  >Currículum</Link>
                     </li>
                     <li className='nav-item'>
-                    <Link to='Contacto' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-90} duration={700} onClick={closeMenu}  >Contacto</Link>
+                    <Link to='Contacto' style={{color:"#ffff", cursor:"pointer"}} spy={true} smooth={true} offset={-70} duration={700} onClick={closeMenu}  >Contacto</Link>
                     </li>
                 </ul>
             </nav>

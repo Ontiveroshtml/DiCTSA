@@ -1,6 +1,6 @@
 .header {
     position: fixed;
-    height: 90px;
+    height: 80px;
     width: 100%;
     top: 0;
     left: 0;
@@ -22,12 +22,14 @@
 
 .header .nav-menu a {
     color: #ffffff;
+    font-size: 0.9em;
 }
 
 .header .navbar p{
     display: flex;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 600;
     color: #ffffff;
 }
 
@@ -54,27 +56,6 @@
 .hamburger {
     display: none;
 }
-
-.link-underline {
-	border-bottom-width: 0;
-	background-image: linear-gradient(transparent, transparent),
-		linear-gradient(#fff, #fff);
-	background-size: 0 5px;
-	background-position: 0 100%;
-	background-repeat: no-repeat;
-	transition: background-size 0.5s ease-in-out;
-}
-
-.link-underline-black {
-	background-image: linear-gradient(transparent, transparent),
-		linear-gradient(#b80101, #b80101);
-}
-
-.link-underline:hover {
-	background-size: 100% 4px;
-	background-position: 0 100%;
-}
-
 
 @media screen and (max-width:940px) {
     .header {

@@ -1,13 +1,20 @@
-import React from 'react'
-import img1 from './images/img1.png'
-import img2 from './images/img2.png'
-import './About.css'
+import React, {useEffect} from 'react';
+import img1 from './images/img1.png';
+import img2 from './images/img2.png';
+import AOS from "aos";
+import './Nosotros.css';
+import 'aos/dist/aos.css';
 
-const About = () => {
+
+
+const Nosotros = () => {
+    useEffect(()=>{
+        AOS.init({duration: 1000});
+        }, []);
     return (
         <>
-            <div className='about' id='about'>
-                <div className='container'>
+            <div className='nosotros' id='Nosotros' >
+                <div className='container' data-aos="fade-left">
                     <img src={img1} alt='imagen' />
                     <div className='col-2'>
                         <h2>Misión</h2>
@@ -17,7 +24,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='container'>
+                <div className='container2' data-aos="fade-right">
                     <div className='col-2'>
                         <h2>Visión</h2>
                         <span className='line'></span>
@@ -25,7 +32,10 @@ const About = () => {
                             corporativa y alcanzando estándares de calidad en cada una de nuestras obras de infraestructura y que nos
                             permitan ser competitivos.</p>
                     </div>
-                    <img src={img2} alt='imagen' />
+
+                        <img src={img2} alt='imagen' />
+
+
                 </div>
             </div>
 
@@ -34,4 +44,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Nosotros
