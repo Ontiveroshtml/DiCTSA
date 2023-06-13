@@ -1,6 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide} from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 import './Inicio.css'
 import logo from './images/Logo.png'
 import img1 from './images/img3.jpg'
@@ -15,25 +16,29 @@ import "swiper/css/effect-fade";
 // import required modules
 import { Autoplay, EffectFade } from "swiper";
 
+
+
 const Inicio = () => {
-    useEffect(()=>{
-        AOS.init({duration: 2000});
-        }, []);
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, []);
     return (
         <>
             <div id='Inicio' className='inicio'>
 
-            <div className='content' data-aos="fade-down-right">
+                <div className='content' data-aos="zoom-in">
                     <p>
                         <img src={logo} alt='logo' />
                         DiCTSA
                     </p>
                     <p>Diseño y Construcciones Tecnologicas SA de CV</p>
                 </div>
+
                 
                 <div className="fondo">
                     <Swiper
-                    
+
                         centeredSlides={true}
                         effect={"fade"}
                         loop={"true"}

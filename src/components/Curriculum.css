@@ -1,0 +1,63 @@
+
+.Curriculum{
+    display: flex;
+    justify-content: left !important;
+    align-items: center !important;
+    padding: 5%;
+    background-color: #830b0b;
+}
+
+.pdf{
+    margin-top: 3%;
+}
+
+
+.Curriculum .contenido{
+    text-align: justify;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.Curriculum h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 3%;
+    text-shadow: 1px 2px #000;
+}
+
+.Curriculum p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Curriculum .btn {
+    float: right;
+    margin: 0 1rem;
+    display: block;
+    width: fit-content;
+    padding: 14px 16px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #000;
+    background: #000;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.Curriculum .btn:hover{
+    transition: all 0.4s;
+    background-color: #363636;
+    border: 2px solid #363636;
+}
+
+.Curriculum a{
+    text-decoration: none;
+    color: #fff;
+}
+

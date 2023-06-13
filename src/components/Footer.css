@@ -29,6 +29,10 @@
     border-bottom: 3px solid var(--secondary-color);
 }
 
+.footer .redes{
+    margin-bottom: 1rem;
+}
+
 .bottom {
     text-align: center;
     padding-top: 1rem;
